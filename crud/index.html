@@ -35,7 +35,7 @@
             margin-top: 25px;
          }
          
-         #list_container #list{
+         #list_container li{
             padding: 7px 7px;
             border: 1px solid gray;
             margin-bottom: 10px;
@@ -48,6 +48,24 @@
             justify-content: space-between;
             align-items: center;
          }
+         
+         #editBtn{
+            padding: 7px 12px;
+            background: #4ab1e3;
+            border: none;
+            color: #fff;
+            border-radius: 3px;
+            font-weight: 500;
+         }
+         
+         #dltBtn{
+            padding: 7px 12px;
+            background: #f14e4e;
+            border: none;
+            color: #fff;
+            border-radius: 3px;
+            font-weight: 500;
+         }
       </style>
    </head>
    <body>
@@ -56,12 +74,10 @@
             <input type="text" id="inputBox" maxlength="20" placeholder="Add your task"/> 
             <button id="addBtn" type="submit">Add</button>
          </div>
-      </div>
-      
-      <ul id="list_container">
+         <ul id="list_container">
          
-      </ul>
-      
+         </ul>
+      </div>
       <script src="js/main.js" type="text/javascript" charset="utf-8"></script>
    </body>
 </html>
