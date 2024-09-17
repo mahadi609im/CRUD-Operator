@@ -4,7 +4,9 @@ let liContainer = document.getElementById('list_container')
 document.getElementById('addBtn').addEventListener("click", ()=>{
    let li = document.createElement('li')
    li.innerHTML = `
-      ${inputBox.value}
+      <div id='list'>
+         ${inputBox.value}
+      </div>
    `
    liContainer.appendChild(li)
 })
