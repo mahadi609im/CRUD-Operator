@@ -7,6 +7,10 @@ document.getElementById('addBtn').addEventListener("click", ()=>{
       <div id='list'>
          ${inputBox.value}
       </div>
+      <div id='btns'>
+         <button id="editBtn" type="submit">Edit</button>
+         <button id="dltBtn" type="submit">Delete</button>
+      </div>
    `
    liContainer.appendChild(li)
 })
